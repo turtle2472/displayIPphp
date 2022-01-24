@@ -7,8 +7,9 @@
 <body>
 <div style='text-align:center;margin-top:20%;font-size:24pt'>
 <?php
-echo $_SERVER['REMOTE_ADDR']; // Show IP
-echo $_SERVER['HTTP_X_FORWARDED_FOR']; // Show forwarded IP
+	echo $_SERVER['REMOTE_ADDR']; // Show IP
+\n
+	echo $_SERVER['HTTP_X_FORWARDED_FOR']; // Show forwarded IP
 ?>
 </div>
 </body>
