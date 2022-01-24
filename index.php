@@ -9,7 +9,7 @@
 <?php
 	echo $_SERVER['REMOTE_ADDR']; // Show IP
 ?>
-<?php
+<br><?php
 	echo $_SERVER['HTTP_X_FORWARDED_FOR']; // Show forwarded IP
 ?>
 </div>
